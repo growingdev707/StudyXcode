@@ -15,8 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8a-iX-xon">
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="BlueColor"/>
+                        <constraints>
+                            <constraint firstItem="W8a-iX-xon" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9vj-WS-tEB"/>
+                            <constraint firstItem="W8a-iX-xon" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Y4K-sm-WA6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
